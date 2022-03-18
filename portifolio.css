@@ -6,6 +6,7 @@
         Helvetica,
         sans-serif;
     color: #FFFF;
+    text-decoration: none;
 
 }
 
@@ -54,6 +55,7 @@ body {
     height: 40px;
     font-weight: bold;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .section-flex {
@@ -77,7 +79,7 @@ img {
     margin-top: 6px;
 }
 
-hr {
+.hr {
     background-color: #3ebcca;
     width: 5%;
     height: 3px;
@@ -99,7 +101,6 @@ hr {
 .contact-icons {
     display: flex;
     align-items: center;
-
 }
 
 .contact-div {
@@ -152,4 +153,26 @@ hr {
 .section-contact {
     margin-bottom: 70px;
     margin-top: 70px;
+}
+
+.hr-contact {
+    height: 3px;
+    border: none;
+    background-color: #3ebcca;
+    width: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 687px;
+}
+
+.hr-skills {
+    height: 3px;
+    border: none;
+    background-color: #3ebcca;
+    width: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 698px;
 }
